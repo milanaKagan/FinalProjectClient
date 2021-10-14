@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+  height:100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  background-image:url('./Assets/flight-login.jpg');
+  background-size:     cover;              
+  background-repeat:   no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  padding: 10px; 
+}
+.main{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  font-weight: 400;
+}

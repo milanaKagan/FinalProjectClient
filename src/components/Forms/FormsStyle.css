@@ -1,0 +1,60 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+label{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.username-error,.password-error,.email-error{
+    margin-left: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+}
+input,select{
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+::placeholder {
+    font-size: 20px;
+  }
+h2{
+    margin: 10px;
+    color: #2f3e4e;
+}
+input:hover{
+    border-bottom: 3px groove #6887a6;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+
+button[type="submit"]{
+    width: 300px;
+    Height: 40px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    background: #6887a6;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+button[type="submit"]:hover{
+    background: #384858; 
+}
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::before, .e-input-group:not(.e-float-icon-left):not(.e-float-input)::after, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before, .e-input-group.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::before, .e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::after, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::before, .e-input-group.e-control-wrapper.e-float-icon-left:not(.e-float-input) .e-input-in-wrap::after {
+    height:3px;
+    background: #6887a6;
+}
+.e-input-group{
+    margin: 10px;
+}

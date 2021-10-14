@@ -1,0 +1,39 @@
+.logo{
+    color: blue;
+    font-size: 70pxs;
+    font-weight: bolder;
+}
+.welcome{
+    font-size: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h2{
+    margin: 0;
+}
+.menue-flight{
+    display: flex;
+    flex-wrap: wrap;
+}
+.customer-signup,.airline-signup{
+    display: flex;
+    flex-direction: column;
+}
+.flight-option,.login-option{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+.menue-link,.auth-link{
+    color: #2f3e4e;
+    text-decoration:none;
+    display: inline-block
+}
+.menue-link:hover,.auth-link:hover{
+    color: #0f1318;
+    transform: scale(1.2);
+}
